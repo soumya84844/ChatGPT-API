@@ -4,7 +4,7 @@ const result = document.querySelector("#result");
 
 button.addEventListener("click", function () {
   message = input.value;
-  fetch("http://localhost:3001/", {
+  fetch("https://os2hks69nh.execute-api.ap-south-1.amazonaws.com/", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
