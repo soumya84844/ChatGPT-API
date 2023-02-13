@@ -4,7 +4,7 @@ const result = document.querySelector("#result");
 
 button.addEventListener("click", function () {
   message = input.value;
-  fetch("https://os2hks69nh.execute-api.ap-south-1.amazonaws.com/", {
+  fetch("https://chartreuse-green-chimpanzee-toga.cyclic.app", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
